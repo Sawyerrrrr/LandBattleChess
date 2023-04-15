@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/bg.jpg</file>
+        <file>images/blue_bomb.png</file>
+        <file>images/blue_Brigadier.png</file>
+        <file>images/blue_Captain.png</file>
+        <file>images/blue_Colonel.png</file>
+        <file>images/blue_Commande.png</file>
+        <file>images/blue_engineer.png</file>
+        <file>images/blue_flag.png</file>
+        <file>images/blue_General.png</file>
+        <file>images/blue_Lieutenant.png</file>
+        <file>images/blue_Maj_general.png</file>
+        <file>images/blue_Major.png</file>
+        <file>images/blue_mine.png</file>
+        <file>images/chess.png</file>
+        <file>images/chess_board.png</file>
+        <file>images/red_bomb.png</file>
+        <file>images/red_Brigadier.png</file>
+        <file>images/red_Captain.png</file>
+        <file>images/red_Colonel.png</file>
+        <file>images/red_Commande.png</file>
+        <file>images/red_engineer.png</file>
+        <file>images/red_flag.png</file>
+        <file>images/red_General.png</file>
+        <file>images/red_Lieutenant.png</file>
+        <file>images/red_Maj_general.png</file>
+        <file>images/red_Major.png</file>
+        <file>images/red_mine.png</file>
+    </qresource>
+</RCC>

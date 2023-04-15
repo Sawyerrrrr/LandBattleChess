@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>575</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>575</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menucreate_the_connection">
+    <property name="title">
+     <string> 联机对战</string>
+    </property>
+    <addaction name="actionCreate_Game"/>
+    <addaction name="actionConnect_to_Sever"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>开始游戏！</string>
+    </property>
+    <addaction name="actioni_m_Ready"/>
+   </widget>
+   <addaction name="menucreate_the_connection"/>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionconnect_to_sever">
+   <property name="text">
+    <string>Create the Connection</string>
+   </property>
+  </action>
+  <action name="actionConnect_to_the_Sever">
+   <property name="text">
+    <string>Connect to the Sever</string>
+   </property>
+  </action>
+  <action name="actionCreate_Game">
+   <property name="text">
+    <string>Create Game</string>
+   </property>
+  </action>
+  <action name="actionConnect_to_Sever">
+   <property name="text">
+    <string>Connect to Sever</string>
+   </property>
+  </action>
+  <action name="actioni_m_Ready">
+   <property name="text">
+    <string>i'm Ready</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
